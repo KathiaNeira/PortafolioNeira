@@ -1,0 +1,94 @@
+.portada{
+  background: url(../img/header-contact.jpg) no-repeat;
+  background-size: cover;
+  height: 70%;
+  display: table;
+  width: 100%;
+    .text-vertical-center{
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      h1{
+          color: #1cff94;
+          font-family: serif;
+          font-size: 60px;
+      }
+    }
+}
+
+
+#text{
+    background-color: rgb(242, 242, 242);
+    padding: 65px 0;
+    font-size: 20px;
+}
+
+#contacto{
+    padding: 70px 0px;
+    .info{
+        background-color: rgb(231, 229, 229);
+      margin-top: 25px;
+        padding: 30px 0;
+    }
+    h2{
+      text-align: left;
+      margin-bottom: 30px;    }
+    p{
+      line-height: 30px;
+    }
+    button{
+        margin-top: 30px;
+        padding: 7px 52px;
+        font-size: 20px;
+        background-color: #06bb84;
+    }
+    .form-group{
+      margin-bottom: 20px;
+    }
+}
+
+#contact{
+    background: url(../img/contact.jpg) no-repeat;
+    padding-top: 70px;
+    background-size: cover;
+  .imagen{
+    width: 20%;
+    display: inline-block;
+    img{
+      width: 100%;
+      border-radius: 50%;
+    }
+  }
+  p{
+      padding: 50px 0;
+  }
+  button{
+            background-color: transparent;
+            border: 2px solid white ;
+            border-radius: 0;
+            padding: 7px 50px;
+            font-size: 20px;
+            color: white;
+             }
+}
+
+#redes{
+  background-color: #06bb84;
+  padding: 70px 0;
+  .redes{
+        padding-top: 20px;
+        padding-bottom: 20px;
+      .rs{
+        width: 6%;
+        display: inline-block;
+        img{
+          width: 100%;
+        }
+      }
+    }
+}
+
+.rs:hover{
+  background-color: rgb(9, 132, 95);
+  border-radius: 50%;
+}

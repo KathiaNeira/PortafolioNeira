@@ -1,0 +1,300 @@
+html,
+body{
+	height: 100%;
+}
+
+.main {
+  position: fixed;
+  z-index: 31;
+  left: 0;
+  top: 0;
+  background: #1d2123;
+  width: 100%;
+  padding: 10px;
+  .navbar-nav{
+    li{
+      a{
+        color: white;
+        font-family: serif;
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+  color: rgb(28, 255, 148);
+}
+
+
+@media screen and (min-width: 1000px){
+.main {
+  width: 88px;
+  padding: 0;
+  height: 100%;
+  background-color: black;
+  }
+}
+
+.navbar-header{
+  	 float: right;
+}
+
+.main{
+	.imagen{
+		img{
+			width: 100%;
+			}
+	}
+}
+
+@media screen and (min-width: 100px){
+	.imagen{
+			width: 20%;
+			display: inline-block;
+		}
+	}
+
+
+@media screen and (min-width: 1000px){
+	.imagen{
+			width: 100%;
+		}
+	}
+
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  padding-left:0;
+}
+
+#portada{
+    width: 95%;
+    height: 100%;
+    right: 0;
+    background: url(../img/header-contact.jpg) no-repeat center center scroll;
+    background-size: cover;
+    .portada{
+    	position: relative;
+    	vertical-align: middle;
+    	text-align: center;
+    	display: table;
+    	height: 100%;
+    	.text-vertical-center{
+    		display: table-cell;
+    		text-align: center;
+    		vertical-align: middle;
+    		h1{
+    			color: #1cff94;
+				font-family: serif;
+				font-size: 70px;
+				letter-spacing: 1px;
+    		}
+        p{
+            line-height: 25px;
+        }
+        button{
+            background-color: transparent;
+            border: 2px solid rgb(28, 255, 148) ;
+            border-radius: 0;
+            padding: 7px 50px;
+            font-size: 20px;
+            color: rgb(28, 255, 148);
+            a{
+            color:rgb(28, 255, 148);
+            text-decoration: none;
+            }
+             }
+    	}
+
+    }
+}
+
+@media screen and (min-width: 100px){
+	#portada {
+		width: 100%;
+	}
+}
+
+#nosotros {
+  padding: 70px 0; 
+  h2{
+      padding-bottom: 50px;
+        font-family: serif;
+  font-size: 40px;
+  }
+  hr{
+      border: 1px solid gray;
+      width: 30%;
+      margin-bottom: 60px;
+  }
+  .nosotros{
+  img{
+  width:100%
+  }
+  }
+  }
+
+/*#contact{
+    padding-top: 70px;
+    background: url(../img/contact.jpg) no-repeat;
+    background-size: cover;
+  .imagen{
+    width: 20%;
+    img{
+      width: 100%;
+      border-radius: 50%;
+    }
+  }
+  p{
+      padding: 50px 0;
+  }
+  button{
+            background-color: transparent;
+            border: 2px solid white ;
+            border-radius: 0;
+            padding: 7px 50px;
+            font-size: 20px;
+            color: white;
+             }
+}*/
+
+
+#works{
+  .work{
+    position: relative;
+    img{
+      width: 100%;
+     }
+    }
+     .overlay{
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      h4,
+      button{
+        visibility: hidden;
+      }
+     }
+}
+
+.overlay:hover{
+  background-color: rgba(0, 255, 148, 0.5);
+  h4{
+    visibility: visible;
+  }
+}
+
+.work1{
+  background: url(../img/surf.jpg) no-repeat;
+  height: 45%;
+  background-size: cover;
+}
+
+.work2{
+  background: url(../img/break.jpg) no-repeat;
+  height: 45%;
+  background-size: cover;
+}
+
+.work3{
+  background: url(../img/kb.jfif) no-repeat;
+  height: 45%;
+  background-size: cover;
+}
+
+#skill{
+    padding: 70px 0;
+    .skill{
+      h3{
+        font-family: serif;
+        font-size: 40px;
+      }
+       p{
+        color: rgb(63, 57, 57);
+        line-height: 20px;
+        text-align: justify;
+       }
+    }
+    .media-left{
+      width: 20%;
+      img{
+        width: 100%;
+      }
+    }
+    .media-body{
+        text-align: justify;
+      h4{
+        font-family: monospace;
+        font-weight: bold;
+      }
+    }
+    .responsive{
+  img{
+  width:100%;
+  }
+  }
+  .imagen{
+  width:20%;
+  img{
+  width:100%;
+  }
+  }
+  .skilltop{
+    margin-top: 21px;
+  }
+  .skillbottom{
+    margin-top: 50px;
+  }
+}
+
+
+
+footer{
+    background: url(../img/contact.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    h2{
+        font-family: serif;
+        font-size: 50px;
+        margin-top: 0;
+        padding-top: 50px;
+    }
+    p{
+        padding: 14px 0;
+    }
+   .btn-custom{
+      background-color: rgb(28, 255, 148);
+      border: 2px solid rgb(28, 255, 148) ;
+      border-radius: 0;
+      padding: 7px 50px;
+      font-size: 20px;
+      color: white;
+      a{
+        color: white;
+        text-decoration: none;
+      }
+        }
+    .redes{
+        padding-top: 20px;
+        padding-bottom: 20px;
+      .rs{
+        width: 3%;
+        display: inline-block;
+        img{
+          width: 100%;
+        }
+      }
+    }
+    hr{
+        width: 83%;
+    }
+}
+
+
+@media screen and (min-width: 100px){
+  .rs {
+    width: 20%;
+  }
+}
