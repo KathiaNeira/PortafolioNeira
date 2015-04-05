@@ -1,0 +1,153 @@
+body,
+html,
+.container-fluid {
+	height: 100%;
+}
+
+.container-fluid {
+	padding-left:0;
+	padding-right:0;
+}
+
+.navbar {
+	position: fixed;
+	z-index: 1000;
+}
+
+.portada {
+	height: 100%;
+	width:100%;
+	display: table;
+	position:relative;
+	background: url(../img/girl.jpg) no-repeat center center scroll;
+	background-size: cover;
+}
+
+.text-vertical-center {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+	h1{
+	margin-top:0;
+	}
+}
+
+.row {
+	margin-left:0;
+	margin-right:0;	
+}
+
+.clases{
+padding:4%;
+.foto img {
+	width: 100%;
+}
+h2 {
+	text-align:center;
+}
+p{
+	padding: 1%;
+}
+}
+
+.instructores {
+background-color: rgb(170, 173, 180);
+padding: 3% 1%;
+.instructor{
+position:relative;
+	img{
+	width:100%;
+	}
+	}
+	.overlay{
+	position:absolute;
+	top:0;
+	width: 100%;
+	height: 100%;
+	p,
+	h4,
+	img{
+		visibility: hidden;
+	}
+	img{
+	width:100%;
+	}
+	.redes{
+		  padding-right: 5%;
+		  text-align: right;
+		.social{
+			display: inline-block;
+			width: 10%;
+			margin-left: 3%;
+		}
+	}
+	}
+}
+
+.overlay:hover p,
+.overlay:hover h4,
+.overlay:hover img {
+	visibility: visible;
+}
+
+.overlay:hover{
+	background-color:rgb(215, 224, 233);
+}
+
+.video {
+	background: url(../img/fondo.jpg) no-repeat;
+	background-size:cover;
+	.informacion{
+	width: 50%;
+	margin: 0 auto
+	}
+	img{
+	width: 100%;
+	}
+	.videodance{
+	width:70%;
+	margin:0 auto;
+	}
+	.btn-danger{
+	  position: relative;
+	  left: 46%;
+	  margin-top: 4%;
+	  margin-bottom: 4%;
+	  font-size: 15px;
+	}
+}
+
+.blog{
+padding:3% 0;
+background-color: rgb(237, 250, 250);
+.interno{
+	background-color: white;
+}
+	img{
+	width:100%;
+	}
+	.interno {
+	margin-bottom: 2%;
+	}
+}
+
+.formulario{
+	h2{
+		text-align: center;
+	}
+	form {
+		width: 50%;
+		margin: 0 auto;
+	}
+	button{
+		  left: 42%;
+		  position: relative;
+		  margin: 4% 0;
+	}
+}
+
+.footer{
+	background-color: gray;
+	padding:2%;
+}

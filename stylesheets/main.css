@@ -5745,29 +5745,24 @@ body {
   top: 0;
   width: 100%;
   height: 100%; }
-  #works .overlay h4,
   #works .overlay button {
-    visibility: hidden; }
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 20px;
+    color: white; }
+
+.overlay h4,
+.overlay button,
+.overlay p {
+  visibility: hidden; }
 
 .overlay:hover {
   background-color: rgba(0, 255, 148, 0.5); }
-  .overlay:hover h4 {
-    visibility: visible; }
 
-.work1 {
-  background: url(../img/surf.jpg) no-repeat;
-  height: 45%;
-  background-size: cover; }
-
-.work2 {
-  background: url(../img/break.jpg) no-repeat;
-  height: 45%;
-  background-size: cover; }
-
-.work3 {
-  background: url(../img/kb.jfif) no-repeat;
-  height: 45%;
-  background-size: cover; }
+.overlay:hover h4,
+.overlay:hover button,
+.overlay:hover p {
+  visibility: visible; }
 
 #skill {
   padding: 70px 0; }
@@ -5851,8 +5846,9 @@ footer {
 
 #text {
   background-color: #f2f2f2;
-  padding: 65px 0;
-  font-size: 20px; }
+  padding-top: 65px;
+  font-size: 22px;
+  padding-bottom: 35px; }
 
 #contacto {
   padding: 70px 0px; }
